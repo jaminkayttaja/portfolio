@@ -44,3 +44,47 @@ a:hover {
     font-size: xx-large;
     text-shadow: black;
 }
+.cfor {
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: solid;
+    border-color: red;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute
+    
+}
+.joof {
+    position: absolute;
+    top: 360px;
+    background-color: lightgrey;
+    width: 600px;
+    height: 300px;
+    text-shadow: 2px 2px gray;
+    padding: 60px;
+    margin-left: 1000px;
+    border: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+
+}
+.emclass {
+    margin-left: 107px;
+}
+.nroclass {
+    margin-left: 107px;
+
+}
+.formi {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    margin-left: 40px;
+}
+.message {
+    margin-left: 50px;
+}
