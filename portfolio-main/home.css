@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px rgb(228, 139, 139);
+   
+}
+body {
+
+    background-color: #333
+}
+.tekstilaatikko1 {
+    position: absolute;
+    background-color: lightgrey;
+    width: 600px;
+    height: 300px;
+    text-shadow: 2px 2px gray;
+    padding: 60px;
+    margin: 50px;
+    border: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}
+.biography {
+    text-align: center;
+    font-size: xx-large;
+}
+a:hover {
+    background-color: rgb(228, 139, 139);
+    width: 30px;
+
+}
+.ylreu {
+    background-color: #333;
+    width: 1800px;
+    padding: 30px;
+    text-align: left;
+    font-size: x-large;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red; 
+}
+.tekstilaatikko2 {
+    position: absolute;
+    top: 336px;
+    background-color: lightgrey;
+    width: 600px;
+    height: 300px;
+    padding: 60px;
+    margin-left: 1110px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    text-align: center;
+    font-size: x-large;
+}
+.socials {
+        text-align: center;
+      font-size: xx-large;
+      text-shadow: 2px 2px gray;
+}
+.alareuna {
+    background-color: grey;
+    width: 1800px;
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red; 
+}
