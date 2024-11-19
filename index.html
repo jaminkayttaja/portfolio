@@ -1,16 +1,28 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device width, initial-scale=1.0">
-        <title>Home Page</title>;
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Home Page</title>
         <link rel="stylesheet" href="home.css">
         <script src="https://kit.fontawesome.com/1f0625bffa.js" crossorigin="anonymous"></script>
-        
+        <script src="home.js" crossorigin="anonymous"></script>
+             <style>
+             </style>
     </head>
-    <body>
+    <body onload="startTime()">
+
+</script>
+    <div class="allign">
         <div class="ylreu">
-<a href="myeducation.html" >My Education</a>
-<h1>Home page</h1> <a href="contactme.html">Contact Me</a>
+ <a href="myeducation.html" >My Education</a>
+<a href="index.html">Home</a>
+<a href="contactme.html">Contact Me</a> 
+<div class="aika">
+    <p id="tx3t"></p>
 </div>
+</div>
+</div>
+<div class="takareuna"> </div>
+<div class="tekstilaatikot">
 <br><div class="Tekstilaatikko1">
     <p class="biography">BIOGRAPHY</p>
     <br>
@@ -33,9 +45,29 @@
     <br>
     <i class="fa-brands fa-discord" ></i> <a href="https://discord.com/">Jqbi</a>
 </div>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 <div class="alareuna">
     <br>
 </div>
+<p id="testis2"></p>
+<script>
+   
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('tx3t').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  
+  return i;
+}
+</script>
     </body>
 </html>

@@ -1,1 +1,3 @@
-src="https://kit.fontawesome.com/1f0625bffa.js" crossorigin="anonymous"
+const d = new Date();
+let min = d.getMinutes();
+document.getElementById("testis").innerHTML = min;

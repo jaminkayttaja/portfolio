@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(61, 51, 51);
+    background-color: rgb(90, 77, 77);
     color: white
 }
 h1 {
@@ -10,21 +10,29 @@ h1 {
    
 }
 .cylriv {
-    background-color: grey;
-    width: 1800px;
-    padding: 60px;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 1920px;
+    padding: 30px;
+    margin: 0px;
+    text-align: left;
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
     border-style: solid;
     border-width: 3px;
-    border-color: red;
+    border-color: black; 
 }
 a:hover {
-    background-color: whitesmoke;
+    background-color: rgba(177, 171, 171, 0.548);
     width: 30px;
-
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
 }
 .contacts {
     background-color: lightgrey;
@@ -32,12 +40,13 @@ a:hover {
     height: 300px;
     text-shadow: 2px 2px gray;
     padding: 60px;
-    margin: 50px;
+    margin: 100px;
     border: 5px;
     border-color: blueviolet;
     border-style: solid;
     border-width: 3px;
-    border-color: red;
+    border-color: black;
+    
 }
 .contactvia{
     text-align: center;
@@ -49,7 +58,7 @@ a:hover {
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-style: solid;
-    border-color: red;
+    border-color: black;
     margin: 10px;
     padding: 5px;
     border-radius: 6px;
@@ -69,7 +78,7 @@ a:hover {
     border-color: blueviolet;
     border-style: solid;
     border-width: 3px;
-    border-color: red;
+    border-color: black;
 
 }
 .emclass {
@@ -80,11 +89,21 @@ a:hover {
 
 }
 .formi {
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: 10px;
     text-align: center;
     margin-left: 40px;
 }
 .message {
     margin-left: 50px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+.laatikot {
+    display: flex;
+    flex-direction: row;
 }
